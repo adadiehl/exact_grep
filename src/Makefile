@@ -2,7 +2,6 @@ IDIR=../include
 CC=gcc
 CFLAGS=-O3 -I$(IDIR)
 ODIR=.
-EXEC_DIR=../bin
 
 LIBS=-lm
 
@@ -16,9 +15,9 @@ $(ODIR)/%.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
 exact_grep: $(OBJ)
-	gcc -o $(EXEC_DIR)/$@ $^ $(CFLAGS) $(LIBS)
+	gcc -o $@ $^ $(CFLAGS) $(LIBS)
 
 .PHONY: clean
 
 clean:
-	rm -f $(ODIR)/*.o *~ core $(INCDIR)/*~ $(EXEC_DIR)/exact_grep
+	rm -f $(ODIR)/*.o *~ core $(INCDIR)/*~ exact_grep

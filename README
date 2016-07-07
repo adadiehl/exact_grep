@@ -1,9 +1,8 @@
 STEPS TO BUILD:
 
 1) Navigate to the "src" directory
-2) Run "make" -- this will place the executable file in the
-   "bin" directory.
-3) Copy bin/exact_grep to any location in your search path.
+2) Run "make"
+3) Copy the exact_grep executable to a directory in your search path.
 
 
 DESCRIPTION:
