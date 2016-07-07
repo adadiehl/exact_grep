@@ -1,0 +1,27 @@
+STEPS TO BUILD:
+
+1) Navigate to the "src" directory
+2) Run "make" -- this will place the executable file in the
+   "bin" directory.
+3) Copy bin/exact_grep to any location in your search path.
+
+
+DESCRIPTION:
+exact_grep: A simple utility to find lines in a text file containing
+exact word matches.
+
+AUTHOR:
+Copyright (C) 2015, Adam Diehl, adadiehl@umich.edu
+
+LICENSE:
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>
